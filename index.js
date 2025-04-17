@@ -3,6 +3,7 @@ const token = process.env.BOT_TOKEN;
 
 const fs = require('fs');
 const path = require('path');
+const { keepAlive } = require('./webserver.js');
 
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
 
@@ -44,4 +45,5 @@ for (const file of eventFiles) {
 	}
 }
 
+keepAlive();
 client.login(token);
