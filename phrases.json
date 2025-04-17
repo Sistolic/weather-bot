@@ -1,0 +1,47 @@
+[
+  {
+    "min": -89.2,
+    "phrase": "It's freezing outside.",
+    "max": 0
+  },
+  {
+    "min": 0,
+    "phrase": "A heavy jacket and scarf, it's really cold out.",
+    "max": 4
+  },
+  {
+    "min": 5,
+    "phrase": "Be sure to wrap up warm.",
+    "max": 9
+  },
+  {
+    "min": 10,
+    "phrase": "Be sure to grab a jacket, it's chill outside",
+    "max": 14
+  },
+  {
+    "min": 15,
+    "phrase": "Calm weather today, pick up a hoodie.",
+    "max": 19
+  },
+  {
+    "min": 20,
+    "phrase": "Good day for a day outside",
+    "max": 24
+  },
+  {
+    "min": 25,
+    "phrase": "It's warm outside.",
+    "max": 28
+  },
+  {
+    "min": 29,
+    "phrase": "Hot weather today! Stay hydrated.",
+    "max": 32
+  },
+  {
+    "min": 33,
+    "phrase": "It's really hot, don't forget the sunscreen.",
+    "max": 56.7
+  }
+]
