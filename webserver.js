@@ -3,7 +3,7 @@ const http = require('http');
 
 const app = express();
 app.get('/', (request, response) => {
-  response.send(html);
+  response.send('Server is running');
 });
 
 function keepAlive() {
@@ -16,3 +16,5 @@ function keepAlive() {
     console.log(`Server is still alive at ${new Date().toLocaleTimeString()}`);
   }, 30000);
 }
+
+module.exports.keepAlive = keepAlive;
